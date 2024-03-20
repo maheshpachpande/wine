@@ -1,0 +1,21 @@
+pandas 
+notebook
+numpy
+scikit-learn
+matplotlib
+python-box==6.0.2
+pyYAML  # for reading yaml file
+ensure==1.0.2
+joblib 
+types-PyYAML
+Flask  # for web page creation
+Flask-Cors
+python-dotenv
+seaborn
+catboost
+dill
+xgboost
+mlflow
+dvc
+pymysql
+-e .  # for figure out setup.py
