@@ -3,6 +3,9 @@
 - setup.py
 - requirements (pip install - r requirements.txt)
 - logging
+
+#### data_ingestion, data_validation, data_transformation
+
 ##### Workflows
 - update config.yaml
 - update schema.yaml   (for checking data-type, mention target column name)
