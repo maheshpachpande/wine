@@ -4,7 +4,7 @@
 - requirements (pip install - r requirements.txt)
 - logging
 
-#### data_ingestion, data_validation (for checking data is correct o not), data_transformation(for feature engineeering)
+#### data_ingestion, data_validation (for checking data is correct o not), data_transformation(for feature engineeering), model_trainer(train the model), model_evaluation
 
 ##### Workflows
 - update config.yaml
