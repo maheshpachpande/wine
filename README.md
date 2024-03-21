@@ -16,3 +16,22 @@
 - update the pipeline
 - update the main.py
 - update the app.py
+
+#### DVC 
+- dvc init
+- git add .
+- git status
+- git commit -m "dvc track"
+- dvc add artifacts\data_ingestion\raw.csv
+#### ERROR
+- delete the artifacts
+- git add .
+- git commit -m "git untrack"
+- git push origin main
+- dvc add artifacts/data_ingestion/raw.csv
+- git add artifacts/data_ingestion/.gitignore 
+- git add artifacts/data_ingestion/raw.csv.dvc
+- git commit -m "git dvc track"
+- git push origin main
+- git status
+- git commit -m "changes in data"
