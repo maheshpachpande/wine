@@ -3,6 +3,7 @@
 - setup.py
 - requirements (pip install - r requirements.txt)
 - logging
+- .env (for confidential credential)
 
 #### data_ingestion, data_validation (for checking data is correct o not), data_transformation(for feature engineeering), model_trainer(train the model), model_evaluation
 
@@ -17,7 +18,7 @@
 - update the main.py
 - update the app.py
 
-#### DVC 
+#### DVC for input data version
 - dvc init
 - git add .
 - git status
@@ -35,3 +36,12 @@
 - git push origin main
 - git status
 - git commit -m "changes in data"
+
+#### dvc for pipeline
+- update dvc.yaml
+- dvc init
+- dvc repro
+
+
+
+
